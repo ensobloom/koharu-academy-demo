@@ -2698,7 +2698,7 @@ p {
   }
 
   .hero-media img {
-    object-position: center top;
+    object-position: 58% 62%;
   }
 
   .school-strip p {
@@ -2950,10 +2950,14 @@ p {
   }
 
   h1 {
-    font-size: clamp(2rem, 8vw, 2.2rem);
-    line-height: 1.38;
-    text-decoration-thickness: 6px;
-    text-underline-offset: -3px;
+    display: inline;
+    font-size: clamp(1.75rem, 7vw, 1.9rem);
+    line-height: 1.55;
+    text-decoration: none;
+    background-image: linear-gradient(transparent 66%, var(--accent) 66% 82%, transparent 82%);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding-inline: 2px;
   }
 
   h2 {
@@ -2965,8 +2969,8 @@ p {
   }
 
   .hero-media {
-    height: 280px;
-    margin-top: 28px;
+    height: 250px;
+    margin-top: 24px;
   }
 
   .hero .label {
@@ -2977,6 +2981,7 @@ p {
   }
 
   .lead {
+    margin-top: 24px;
     margin-bottom: 22px;
     font-size: 1rem;
     line-height: 1.8;
@@ -3071,14 +3076,22 @@ p {
   }
 
   .chat-launcher {
-    right: 14px;
-    bottom: 14px;
-    min-height: 68px;
-    padding: 8px 14px 8px 8px;
+    right: 10px;
+    bottom: 10px;
+    min-height: 58px;
+    padding: 6px 12px 6px 6px;
   }
 
   .launcher-icon {
-    width: 50px;
-    height: 50px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .launcher-copy strong {
+    font-size: 15px;
+  }
+
+  .launcher-copy small {
+    font-size: 11px;
   }
 }
