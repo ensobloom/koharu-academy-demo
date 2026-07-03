@@ -2790,7 +2790,18 @@ p {
   }
 
   .trial-flow .flow-steps {
+    grid-template-columns: 1fr;
     gap: 16px;
+  }
+
+  .trial-flow .section-heading {
+    max-width: 100%;
+    margin-bottom: 28px;
+  }
+
+  .trial-flow .section-heading h2 {
+    font-size: 2rem;
+    line-height: 1.42;
   }
 
   .trial-flow .flow-steps article:not(:last-child)::before,
